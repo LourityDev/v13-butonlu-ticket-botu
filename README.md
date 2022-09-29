@@ -1,2 +1,16 @@
-# v13-butonlu-ticket-botu
-V13 Butonlu + Menülü Ticket Botu Altyapısı
+<div align="center">
+    <h1>Developed with 💙 by Lourity</h1>
+</div>
+
+# 📜 Kullanım
+> Install packages. \
+> $ `npm install`
+>
+> Start \
+> $ `node lourity.js`
+
+# 🔒 License
+> MIT
+
+# ⭐ Star
+> Beğendiyseniz star atmayı unutmayın!
