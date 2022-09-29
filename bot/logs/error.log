@@ -1,0 +1,48 @@
+[2021-11-04 22:31:36] - [error]: Identifier 'module' has already been declared
+{
+  "stack": "/app/bot/commands/image/achievement.js:7
+module.exports = new Command({
+^
+
+SyntaxError: Identifier 'module' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:93:18)
+    at /app/bot/Client.js:333:25
+    at Array.forEach (<anonymous>)
+    at HurricanoClient.loadCommands (/app/bot/Client.js:327:35)
+    at init (/app/bot/handlers/index.js:27:10)
+    at Object.<anonymous> (/app/bot/handlers/index.js:34:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)"
+}
+[2021-11-04 22:33:58] - [warn]: message.member.hasPermission is not a function
+{
+  "stack": "TypeError: message.member.hasPermission is not a function
+    at Command.run (/app/bot/commands/giveaways/gend.js:9:23)
+    at MessageEvent.run (/app/bot/events/bot/message.js:433:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+}
+[2021-11-04 22:34:16] - [warn]: message.member.hasPermission is not a function
+{
+  "stack": "TypeError: message.member.hasPermission is not a function
+    at Command.run (/app/bot/commands/giveaways/gend.js:9:23)
+    at MessageEvent.run (/app/bot/events/bot/message.js:433:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+}
+[2021-11-04 22:34:22] - [warn]: message.member.hasPermission is not a function
+{
+  "stack": "TypeError: message.member.hasPermission is not a function
+    at Command.run (/app/bot/commands/giveaways/gend.js:9:23)
+    at MessageEvent.run (/app/bot/events/bot/message.js:433:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+}
