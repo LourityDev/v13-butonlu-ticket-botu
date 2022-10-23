@@ -7,7 +7,7 @@ var oyun = [
         `Lourity Code`
     ];
 
-    setInterval(function() {//pasador code
+    setInterval(function() {//louirty code
 
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
