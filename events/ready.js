@@ -2,9 +2,9 @@ const chalk = require('chalk');
 const moment = require('moment');
 
 
-module.exports = client => {//pasador code
+module.exports = client => {//lourity code
 var oyun = [
-        `Pasador Code`
+        `Lourity Code`
     ];
 
     setInterval(function() {//pasador code
